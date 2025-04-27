@@ -205,8 +205,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Wartortle",
 		evoLevel: 36,
 		eggGroups: ["Monster", "Water 1"],
-		otherFormes: ["Blastoise-Mega"],
-		formeOrder: ["Blastoise", "Blastoise-Mega"],
+		otherFormes: ["Blastoise-Mega", "BlueBlastoise"],
+		formeOrder: ["Blastoise", "Blastoise-Mega", "BlueBlastoise"],
 		canGigantamax: "G-Max Cannonade",
 	},
 	blastoisemega: {
@@ -19806,4 +19806,20 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+	// #region Kybur Pokemon
+	blastoisebondblue: {
+		num: 9,
+		name: "BlueBlastoise",
+		baseSpecies: "Blastoise",
+		forme: "BlueBlastoise",
+		types: ["Water", "Steel"],
+		genderRatio: { M: 0.875, F: 0.125 },
+		baseStats: { hp: 110, atk: 70, def: 120, spa: 135, spd: 125, spe: 70 },
+		abilities: { 0: "Water Bubble" },
+		heightm: 1.6,
+		weightkg: 200,
+		color: "Blue",
+		eggGroups: ["Monster", "Water 1"],
+	},
+	// #region
 };
