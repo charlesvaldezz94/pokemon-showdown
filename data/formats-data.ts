@@ -64,10 +64,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	blastoisebondblue: {
-		tier: "(Uber)",
+	blueblastoise: {
+		tier: "OU",
 		doublesTier: "DOU",
-		natDexTier: "(Uber)"
+		natDexTier: "OU",
+		isNonstandard: null,
 	},
 	caterpie: {
 		isNonstandard: "Past",

@@ -19807,11 +19807,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		gen: 5,
 	},
 	// #region Kybur Pokemon
-	blastoisebondblue: {
-		num: 9,
-		name: "BlueBlastoise",
-		baseSpecies: "Blastoise",
-		forme: "BlueBlastoise",
+	blueblastoise: {
+		num: 1026,
+		name: "Blue-Blastoise",
 		types: ["Water", "Steel"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 110, atk: 70, def: 120, spa: 135, spd: 125, spe: 70 },
