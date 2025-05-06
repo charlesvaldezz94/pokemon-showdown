@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen4/pokedex.ts"],
+  "sourcesContent": ["export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable = {\n\tmilotic: {\n\t\tinherit: true,\n\t\tevoType: 'levelExtra',\n\t\tevoCondition: 'with high Beauty',\n\t},\n\trotomheat: {\n\t\tinherit: true,\n\t\ttypes: [\"Electric\", \"Ghost\"],\n\t},\n\trotomwash: {\n\t\tinherit: true,\n\t\ttypes: [\"Electric\", \"Ghost\"],\n\t},\n\trotomfrost: {\n\t\tinherit: true,\n\t\ttypes: [\"Electric\", \"Ghost\"],\n\t},\n\trotomfan: {\n\t\tinherit: true,\n\t\ttypes: [\"Electric\", \"Ghost\"],\n\t},\n\trotommow: {\n\t\tinherit: true,\n\t\ttypes: [\"Electric\", \"Ghost\"],\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAAqE;AAAA,EACjF,SAAS;AAAA,IACR,SAAS;AAAA,IACT,SAAS;AAAA,IACT,cAAc;AAAA,EACf;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,OAAO,CAAC,YAAY,OAAO;AAAA,EAC5B;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,OAAO,CAAC,YAAY,OAAO;AAAA,EAC5B;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,OAAO,CAAC,YAAY,OAAO;AAAA,EAC5B;AAAA,EACA,UAAU;AAAA,IACT,SAAS;AAAA,IACT,OAAO,CAAC,YAAY,OAAO;AAAA,EAC5B;AAAA,EACA,UAAU;AAAA,IACT,SAAS;AAAA,IACT,OAAO,CAAC,YAAY,OAAO;AAAA,EAC5B;AACD;",
+  "names": []
+}

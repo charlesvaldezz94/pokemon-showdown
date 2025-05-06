@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen8bdsp/abilities.ts"],
+  "sourcesContent": ["export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTable = {\n\tasoneglastrier: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Past\",\n\t},\n\tasonespectrier: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Past\",\n\t},\n\tchillingneigh: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Past\",\n\t},\n\tcuriousmedicine: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Past\",\n\t},\n\tdragonsmaw: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Past\",\n\t},\n\tgrimneigh: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Past\",\n\t},\n\tquickdraw: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Past\",\n\t},\n\ttransistor: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Past\",\n\t},\n\tunseenfist: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Past\",\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,YAAyE;AAAA,EACrF,gBAAgB;AAAA,IACf,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,gBAAgB;AAAA,IACf,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,eAAe;AAAA,IACd,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,iBAAiB;AAAA,IAChB,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AACD;",
+  "names": []
+}

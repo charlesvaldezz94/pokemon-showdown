@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen5/scripts.ts"],
+  "sourcesContent": ["export const Scripts: ModdedBattleScriptsData = {\n\tinherit: 'gen6',\n\tgen: 5,\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAAmC;AAAA,EAC/C,SAAS;AAAA,EACT,KAAK;AACN;",
+  "names": []
+}

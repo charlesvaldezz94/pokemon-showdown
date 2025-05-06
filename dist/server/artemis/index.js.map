@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../server/artemis/index.ts"],
+  "sourcesContent": ["/**\n * @author mia-pi-git\n */\nimport { LocalClassifier } from './local';\nimport { RemoteClassifier } from './remote';\n\nexport { LocalClassifier, RemoteClassifier };\n\nexport function destroy() {\n\tvoid LocalClassifier.destroy();\n\tvoid RemoteClassifier.PM.destroy();\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAGA,mBAAgC;AAChC,oBAAiC;AAI1B,SAAS,UAAU;AACzB,OAAK,6BAAgB,QAAQ;AAC7B,OAAK,+BAAiB,GAAG,QAAQ;AAClC;",
+  "names": []
+}

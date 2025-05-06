@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen8/typechart.ts"],
+  "sourcesContent": ["export const TypeChart: import('../../../sim/dex-data').ModdedTypeDataTable = {\n\tstellar: {\n\t\tinherit: true,\n\t\tisNonstandard: 'Future',\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,YAAiE;AAAA,EAC7E,SAAS;AAAA,IACR,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AACD;",
+  "names": []
+}

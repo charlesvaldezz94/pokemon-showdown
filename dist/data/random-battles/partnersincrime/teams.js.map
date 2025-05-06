@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/random-battles/partnersincrime/teams.ts"],
+  "sourcesContent": ["import RandomTeams from '../gen9/teams';\n\nexport class RandomPartnersInCrimeTeams extends RandomTeams {}\n\nexport default RandomPartnersInCrimeTeams;\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBAAwB;AAEjB,MAAM,mCAAmC,aAAAA,QAAY;AAAC;AAE7D,IAAO,gBAAQ;",
+  "names": ["RandomTeams"]
+}

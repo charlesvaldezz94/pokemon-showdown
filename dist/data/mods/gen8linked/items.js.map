@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen8linked/items.ts"],
+  "sourcesContent": ["export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {\n\tleppaberry: {\n\t\tinherit: true,\n\t\tonUpdate(pokemon) {\n\t\t\tif (!pokemon.hp) return;\n\t\t\tconst moveSlot = pokemon.getMoveData(pokemon.m.lastMoveAbsolute);\n\t\t\tif (moveSlot?.pp === 0) {\n\t\t\t\tpokemon.addVolatile('leppaberry');\n\t\t\t\tpokemon.volatiles['leppaberry'].moveSlot = moveSlot;\n\t\t\t\tpokemon.eatItem();\n\t\t\t}\n\t\t},\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAA8D;AAAA,EAC1E,YAAY;AAAA,IACX,SAAS;AAAA,IACT,SAAS,SAAS;AACjB,UAAI,CAAC,QAAQ,GAAI;AACjB,YAAM,WAAW,QAAQ,YAAY,QAAQ,EAAE,gBAAgB;AAC/D,UAAI,UAAU,OAAO,GAAG;AACvB,gBAAQ,YAAY,YAAY;AAChC,gBAAQ,UAAU,YAAY,EAAE,WAAW;AAC3C,gBAAQ,QAAQ;AAAA,MACjB;AAAA,IACD;AAAA,EACD;AACD;",
+  "names": []
+}

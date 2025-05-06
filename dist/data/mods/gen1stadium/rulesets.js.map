@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen1stadium/rulesets.ts"],
+  "sourcesContent": ["export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable = {\n\tstandard: {\n\t\teffectType: 'ValidatorRule',\n\t\tname: 'Standard',\n\t\truleset: ['Obtainable', 'Stadium Sleep Clause', 'Freeze Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Exact HP Mod', 'Cancel Mod'],\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,WAAqE;AAAA,EACjF,UAAU;AAAA,IACT,YAAY;AAAA,IACZ,MAAM;AAAA,IACN,SAAS,CAAC,cAAc,wBAAwB,qBAAqB,kBAAkB,mBAAmB,eAAe,wBAAwB,gBAAgB,YAAY;AAAA,EAC9K;AACD;",
+  "names": []
+}

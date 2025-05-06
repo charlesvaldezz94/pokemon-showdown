@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/sharingiscaring/moves.ts"],
+  "sourcesContent": ["export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {\n\tpoltergeist: {\n\t\tinherit: true,\n\t\tonTry(source, target) {\n\t\t\treturn !!target.item || Object.keys(target.volatiles).some(volatile => volatile.startsWith('item:'));\n\t\t},\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAA8D;AAAA,EAC1E,aAAa;AAAA,IACZ,SAAS;AAAA,IACT,MAAM,QAAQ,QAAQ;AACrB,aAAO,CAAC,CAAC,OAAO,QAAQ,OAAO,KAAK,OAAO,SAAS,EAAE,KAAK,cAAY,SAAS,WAAW,OAAO,CAAC;AAAA,IACpG;AAAA,EACD;AACD;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen7letsgo/rulesets.ts"],
+  "sourcesContent": ["export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable = {\n\tstandard: {\n\t\tinherit: true,\n\t\truleset: ['Adjust Level = 50', 'Obtainable', 'Team Preview', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],\n\t},\n\tstandarddoubles: {\n\t\tinherit: true,\n\t\truleset: ['Adjust Level = 50', 'Obtainable', 'Team Preview', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'HP Percentage Mod', 'Cancel Mod'],\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,WAAqE;AAAA,EACjF,UAAU;AAAA,IACT,SAAS;AAAA,IACT,SAAS,CAAC,qBAAqB,cAAc,gBAAgB,kBAAkB,mBAAmB,eAAe,wBAAwB,qBAAqB,cAAc,kBAAkB;AAAA,EAC/L;AAAA,EACA,iBAAiB;AAAA,IAChB,SAAS;AAAA,IACT,SAAS,CAAC,qBAAqB,cAAc,gBAAgB,kBAAkB,mBAAmB,eAAe,wBAAwB,qBAAqB,YAAY;AAAA,EAC3K;AACD;",
+  "names": []
+}

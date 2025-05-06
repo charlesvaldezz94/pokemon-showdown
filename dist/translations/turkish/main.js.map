@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../translations/turkish/main.ts"],
+  "sourcesContent": ["import type { Translations } from '../../server/chat';\n\nexport const translations: Translations = {\n\tname: \"Turkish\",\n\tstrings: {\n\t\t\"Please follow the rules:\": \"L\u00FCtfen kurallara uyun:\",\n\t\t\"[TN: Link to the PS rules for your language (path after pokemonshowdown.com]/rules\": \"/pages/rules-tr\",\n\t\t\"Global Rules\": \"Genel kurallar\",\n\t\t\"${room} room rules\": \"${room} odas\u0131 kurallar\u0131\",\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAEO,MAAM,eAA6B;AAAA,EACzC,MAAM;AAAA,EACN,SAAS;AAAA,IACR,4BAA4B;AAAA,IAC5B,sFAAsF;AAAA,IACtF,gBAAgB;AAAA,IAChB,sBAAsB;AAAA,EACvB;AACD;",
+  "names": []
+}

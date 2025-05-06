@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen9dlc1/pokedex.ts"],
+  "sourcesContent": ["export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable = {\n\tcresceidon: {\n\t\tinherit: true,\n\t\tbaseStats: { hp: 80, atk: 32, def: 111, spa: 88, spd: 99, spe: 125 },\n\t\tabilities: { 0: \"Multiscale\", 1: \"Rough Skin\" },\n\t\teggGroups: [\"Undiscovered\"],\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAAqE;AAAA,EACjF,YAAY;AAAA,IACX,SAAS;AAAA,IACT,WAAW,EAAE,IAAI,IAAI,KAAK,IAAI,KAAK,KAAK,KAAK,IAAI,KAAK,IAAI,KAAK,IAAI;AAAA,IACnE,WAAW,EAAE,GAAG,cAAc,GAAG,aAAa;AAAA,IAC9C,WAAW,CAAC,cAAc;AAAA,EAC3B;AACD;",
+  "names": []
+}

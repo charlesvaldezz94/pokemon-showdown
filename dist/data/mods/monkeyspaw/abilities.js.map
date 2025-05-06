@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/monkeyspaw/abilities.ts"],
+  "sourcesContent": ["export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTable = {\n\tslowstart: {\n\t\tinherit: true,\n\t\tcondition: {\n\t\t\tduration: 5,\n\t\t\tdurationCallback(target, source, effect) {\n\t\t\t\tif (target.m.revivedByMonkeysPaw) return 0;\n\t\t\t\treturn 5;\n\t\t\t},\n\t\t\tonResidualOrder: 28,\n\t\t\tonResidualSubOrder: 2,\n\t\t\tonStart(target, source, effect) {\n\t\t\t\tif (target.m.revivedByMonkeysPaw) this.effectState.duration = 0;\n\t\t\t\tthis.add('-start', target, 'ability: Slow Start');\n\t\t\t},\n\t\t\tonModifyAtkPriority: 5,\n\t\t\tonModifyAtk(atk, pokemon) {\n\t\t\t\treturn this.chainModify(0.5);\n\t\t\t},\n\t\t\tonModifySpe(spe, pokemon) {\n\t\t\t\treturn this.chainModify(0.5);\n\t\t\t},\n\t\t\tonEnd(target) {\n\t\t\t\tthis.add('-end', target, 'Slow Start');\n\t\t\t},\n\t\t},\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,YAAyE;AAAA,EACrF,WAAW;AAAA,IACV,SAAS;AAAA,IACT,WAAW;AAAA,MACV,UAAU;AAAA,MACV,iBAAiB,QAAQ,QAAQ,QAAQ;AACxC,YAAI,OAAO,EAAE,oBAAqB,QAAO;AACzC,eAAO;AAAA,MACR;AAAA,MACA,iBAAiB;AAAA,MACjB,oBAAoB;AAAA,MACpB,QAAQ,QAAQ,QAAQ,QAAQ;AAC/B,YAAI,OAAO,EAAE,oBAAqB,MAAK,YAAY,WAAW;AAC9D,aAAK,IAAI,UAAU,QAAQ,qBAAqB;AAAA,MACjD;AAAA,MACA,qBAAqB;AAAA,MACrB,YAAY,KAAK,SAAS;AACzB,eAAO,KAAK,YAAY,GAAG;AAAA,MAC5B;AAAA,MACA,YAAY,KAAK,SAAS;AACzB,eAAO,KAAK,YAAY,GAAG;AAAA,MAC5B;AAAA,MACA,MAAM,QAAQ;AACb,aAAK,IAAI,QAAQ,QAAQ,YAAY;AAAA,MACtC;AAAA,IACD;AAAA,EACD;AACD;",
+  "names": []
+}

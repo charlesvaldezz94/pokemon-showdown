@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen6xy/moves.ts"],
+  "sourcesContent": ["export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {\n\tdragonascent: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Future\",\n\t},\n\thyperspacefury: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Future\",\n\t},\n\toriginpulse: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Future\",\n\t},\n\tprecipiceblades: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Future\",\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAA8D;AAAA,EAC1E,cAAc;AAAA,IACb,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,gBAAgB;AAAA,IACf,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,aAAa;AAAA,IACZ,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,iBAAiB;AAAA,IAChB,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AACD;",
+  "names": []
+}

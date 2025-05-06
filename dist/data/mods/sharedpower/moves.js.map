@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/sharedpower/moves.ts"],
+  "sourcesContent": ["export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {\n\tgastroacid: {\n\t\tinherit: true,\n\t\tcondition: {\n\t\t\t// Ability suppression implemented in Pokemon.ignoringAbility() within sim/pokemon.js\n\t\t\tonStart(pokemon) {\n\t\t\t\tthis.add('-endability', pokemon);\n\t\t\t\tthis.singleEvent('End', pokemon.getAbility(), pokemon.abilityState, pokemon, pokemon, 'gastroacid');\n\t\t\t\tconst keys = Object.keys(pokemon.volatiles).filter(x => x.startsWith(\"ability:\"));\n\t\t\t\tif (keys.length) {\n\t\t\t\t\tfor (const abil of keys) {\n\t\t\t\t\t\tpokemon.removeVolatile(abil);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t},\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAA8D;AAAA,EAC1E,YAAY;AAAA,IACX,SAAS;AAAA,IACT,WAAW;AAAA;AAAA,MAEV,QAAQ,SAAS;AAChB,aAAK,IAAI,eAAe,OAAO;AAC/B,aAAK,YAAY,OAAO,QAAQ,WAAW,GAAG,QAAQ,cAAc,SAAS,SAAS,YAAY;AAClG,cAAM,OAAO,OAAO,KAAK,QAAQ,SAAS,EAAE,OAAO,OAAK,EAAE,WAAW,UAAU,CAAC;AAChF,YAAI,KAAK,QAAQ;AAChB,qBAAW,QAAQ,MAAM;AACxB,oBAAQ,eAAe,IAAI;AAAA,UAC5B;AAAA,QACD;AAAA,MACD;AAAA,IACD;AAAA,EACD;AACD;",
+  "names": []
+}

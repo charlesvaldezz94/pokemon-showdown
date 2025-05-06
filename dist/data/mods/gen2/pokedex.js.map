@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen2/pokedex.ts"],
+  "sourcesContent": ["export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable = {\n\tunown: {\n\t\tinherit: true,\n\t\tcosmeticFormes: [\"Unown-B\", \"Unown-C\", \"Unown-D\", \"Unown-E\", \"Unown-F\", \"Unown-G\", \"Unown-H\", \"Unown-I\", \"Unown-J\", \"Unown-K\", \"Unown-L\", \"Unown-M\", \"Unown-N\", \"Unown-O\", \"Unown-P\", \"Unown-Q\", \"Unown-R\", \"Unown-S\", \"Unown-T\", \"Unown-U\", \"Unown-V\", \"Unown-W\", \"Unown-X\", \"Unown-Y\", \"Unown-Z\"],\n\t\tformeOrder: [\"Unown\", \"Unown-B\", \"Unown-C\", \"Unown-D\", \"Unown-E\", \"Unown-F\", \"Unown-G\", \"Unown-H\", \"Unown-I\", \"Unown-J\", \"Unown-K\", \"Unown-L\", \"Unown-M\", \"Unown-N\", \"Unown-O\", \"Unown-P\", \"Unown-Q\", \"Unown-R\", \"Unown-S\", \"Unown-T\", \"Unown-U\", \"Unown-V\", \"Unown-W\", \"Unown-X\", \"Unown-Y\", \"Unown-Z\"],\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAAqE;AAAA,EACjF,OAAO;AAAA,IACN,SAAS;AAAA,IACT,gBAAgB,CAAC,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,SAAS;AAAA,IAClS,YAAY,CAAC,SAAS,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,WAAW,SAAS;AAAA,EACxS;AACD;",
+  "names": []
+}

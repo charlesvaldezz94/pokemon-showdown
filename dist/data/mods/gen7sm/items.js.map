@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen7sm/items.ts"],
+  "sourcesContent": ["export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {\n\tkommoniumz: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Future\",\n\t},\n\tlunaliumz: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Future\",\n\t},\n\tlycaniumz: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Future\",\n\t},\n\tmimikiumz: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Future\",\n\t},\n\tsolganiumz: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Future\",\n\t},\n\tultranecroziumz: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Future\",\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAA8D;AAAA,EAC1E,YAAY;AAAA,IACX,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,WAAW;AAAA,IACV,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,YAAY;AAAA,IACX,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,iBAAiB;AAAA,IAChB,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AACD;",
+  "names": []
+}

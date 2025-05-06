@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/random-battles/sharedpower/teams.ts"],
+  "sourcesContent": ["import RandomTeams from '../gen9/teams';\n\nexport class RandomSharedPowerTeams extends RandomTeams {}\n\nexport default RandomSharedPowerTeams;\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBAAwB;AAEjB,MAAM,+BAA+B,aAAAA,QAAY;AAAC;AAEzD,IAAO,gBAAQ;",
+  "names": ["RandomTeams"]
+}

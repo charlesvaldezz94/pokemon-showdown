@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../lib/index.ts"],
+  "sourcesContent": ["export * as Dashycode from './dashycode';\nexport { Repl } from './repl';\nexport { Net } from './net';\nexport * as Streams from './streams';\nexport { FS } from './fs';\nexport * as Utils from './utils';\nexport { crashlogger } from './crashlogger';\nexport * as ProcessManager from './process-manager';\nexport { SQL } from './sql';\nexport { PostgresDatabase } from './postgres';\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,gBAA2B;AAC3B,kBAAqB;AACrB,iBAAoB;AACpB,cAAyB;AACzB,gBAAmB;AACnB,YAAuB;AACvB,yBAA4B;AAC5B,qBAAgC;AAChC,iBAAoB;AACpB,sBAAiC;",
+  "names": []
+}

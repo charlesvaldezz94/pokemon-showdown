@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen1jpn/conditions.ts"],
+  "sourcesContent": ["export const Conditions: import('../../../sim/dex-conditions').ModdedConditionDataTable = {\n\tinvulnerability: {\n\t\t// Dig/Fly\n\t\tname: 'invulnerability',\n\t\tonInvulnerability(target, source, move) {\n\t\t\tif (target === source) return true;\n\t\t\tif ((move.id === 'swift' && target.volatiles['substitute']) || move.id === 'transform') return true;\n\t\t\tthis.add('-message', 'The foe ' + target.name + ' can\\'t be hit while invulnerable!');\n\t\t\treturn false;\n\t\t},\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,aAA6E;AAAA,EACzF,iBAAiB;AAAA;AAAA,IAEhB,MAAM;AAAA,IACN,kBAAkB,QAAQ,QAAQ,MAAM;AACvC,UAAI,WAAW,OAAQ,QAAO;AAC9B,UAAK,KAAK,OAAO,WAAW,OAAO,UAAU,YAAY,KAAM,KAAK,OAAO,YAAa,QAAO;AAC/F,WAAK,IAAI,YAAY,aAAa,OAAO,OAAO,mCAAoC;AACpF,aAAO;AAAA,IACR;AAAA,EACD;AACD;",
+  "names": []
+}

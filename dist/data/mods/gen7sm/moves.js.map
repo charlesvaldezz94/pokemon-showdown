@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen7sm/moves.ts"],
+  "sourcesContent": ["export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {\n\tmindblown: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Future\",\n\t},\n\tphotongeyser: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Future\",\n\t},\n\tplasmafists: {\n\t\tinherit: true,\n\t\tisNonstandard: \"Future\",\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,QAA8D;AAAA,EAC1E,WAAW;AAAA,IACV,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,cAAc;AAAA,IACb,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AAAA,EACA,aAAa;AAAA,IACZ,SAAS;AAAA,IACT,eAAe;AAAA,EAChB;AACD;",
+  "names": []
+}

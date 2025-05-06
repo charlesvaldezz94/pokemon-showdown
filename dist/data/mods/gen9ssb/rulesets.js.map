@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen9ssb/rulesets.ts"],
+  "sourcesContent": ["export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable = {\n\tsleepclausemod: {\n\t\tinherit: true,\n\t\tonSetStatus(status, target, source) {\n\t\t\tif (source?.isAlly(target)) {\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tif (status.id === 'slp') {\n\t\t\t\tfor (const pokemon of target.side.pokemon) {\n\t\t\t\t\tif (pokemon.hp && pokemon.status === 'slp') {\n\t\t\t\t\t\tif (!pokemon.statusState.source?.isAlly(pokemon)) {\n\t\t\t\t\t\t\tif (source.hasAbility('ididitagain')) {\n\t\t\t\t\t\t\t\tthis.add('-ability', source, 'I Did It Again');\n\t\t\t\t\t\t\t\treturn;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\tthis.add('-message', 'Sleep Clause Mod activated.');\n\t\t\t\t\t\t\tthis.hint(\"Sleep Clause Mod prevents players from putting more than one of their opponent's Pok\u00E9mon to sleep at a time\");\n\t\t\t\t\t\t\treturn false;\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,WAAqE;AAAA,EACjF,gBAAgB;AAAA,IACf,SAAS;AAAA,IACT,YAAY,QAAQ,QAAQ,QAAQ;AACnC,UAAI,QAAQ,OAAO,MAAM,GAAG;AAC3B;AAAA,MACD;AACA,UAAI,OAAO,OAAO,OAAO;AACxB,mBAAW,WAAW,OAAO,KAAK,SAAS;AAC1C,cAAI,QAAQ,MAAM,QAAQ,WAAW,OAAO;AAC3C,gBAAI,CAAC,QAAQ,YAAY,QAAQ,OAAO,OAAO,GAAG;AACjD,kBAAI,OAAO,WAAW,aAAa,GAAG;AACrC,qBAAK,IAAI,YAAY,QAAQ,gBAAgB;AAC7C;AAAA,cACD;AACA,mBAAK,IAAI,YAAY,6BAA6B;AAClD,mBAAK,KAAK,gHAA6G;AACvH,qBAAO;AAAA,YACR;AAAA,UACD;AAAA,QACD;AAAA,MACD;AAAA,IACD;AAAA,EACD;AACD;",
+  "names": []
+}

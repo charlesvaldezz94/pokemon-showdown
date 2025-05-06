@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen4pt/formats-data.ts"],
+  "sourcesContent": ["export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = {\n\tpichuspikyeared: {\n\t\tisNonstandard: \"Future\",\n\t\ttier: \"Illegal\",\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,cAAgF;AAAA,EAC5F,iBAAiB;AAAA,IAChB,eAAe;AAAA,IACf,MAAM;AAAA,EACP;AACD;",
+  "names": []
+}

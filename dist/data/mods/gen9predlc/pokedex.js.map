@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/gen9predlc/pokedex.ts"],
+  "sourcesContent": ["export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable = {\n\tshiftry: {\n\t\tinherit: true,\n\t\tabilities: { 0: \"Chlorophyll\", 1: \"Early Bird\", H: \"Pickpocket\" },\n\t},\n\tpiplup: {\n\t\tinherit: true,\n\t\tabilities: { 0: \"Torrent\", H: \"Defiant\" },\n\t},\n\tprinplup: {\n\t\tinherit: true,\n\t\tabilities: { 0: \"Torrent\", H: \"Defiant\" },\n\t},\n\tempoleon: {\n\t\tinherit: true,\n\t\tabilities: { 0: \"Torrent\", H: \"Defiant\" },\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,UAAqE;AAAA,EACjF,SAAS;AAAA,IACR,SAAS;AAAA,IACT,WAAW,EAAE,GAAG,eAAe,GAAG,cAAc,GAAG,aAAa;AAAA,EACjE;AAAA,EACA,QAAQ;AAAA,IACP,SAAS;AAAA,IACT,WAAW,EAAE,GAAG,WAAW,GAAG,UAAU;AAAA,EACzC;AAAA,EACA,UAAU;AAAA,IACT,SAAS;AAAA,IACT,WAAW,EAAE,GAAG,WAAW,GAAG,UAAU;AAAA,EACzC;AAAA,EACA,UAAU;AAAA,IACT,SAAS;AAAA,IACT,WAAW,EAAE,GAAG,WAAW,GAAG,UAAU;AAAA,EACzC;AACD;",
+  "names": []
+}

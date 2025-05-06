@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../data/mods/fullpotential/abilities.ts"],
+  "sourcesContent": ["export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTable = {\n\tunaware: {\n\t\tinherit: true,\n\t\tonAnyModifyBoost(boosts, pokemon) {\n\t\t\tconst unawareUser = this.effectState.target;\n\t\t\tif (unawareUser === pokemon) return;\n\t\t\tif (unawareUser === this.activePokemon && pokemon === this.activeTarget) {\n\t\t\t\tboosts['def'] = 0;\n\t\t\t\tboosts['spd'] = 0;\n\t\t\t\tboosts['evasion'] = 0;\n\t\t\t}\n\t\t\tif (pokemon === this.activePokemon && unawareUser === this.activeTarget) {\n\t\t\t\tboosts['atk'] = 0;\n\t\t\t\tboosts['def'] = 0;\n\t\t\t\tboosts['spa'] = 0;\n\t\t\t\tboosts['spd'] = 0;\n\t\t\t\tboosts['spe'] = 0;\n\t\t\t\tboosts['accuracy'] = 0;\n\t\t\t}\n\t\t},\n\t},\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,YAAyE;AAAA,EACrF,SAAS;AAAA,IACR,SAAS;AAAA,IACT,iBAAiB,QAAQ,SAAS;AACjC,YAAM,cAAc,KAAK,YAAY;AACrC,UAAI,gBAAgB,QAAS;AAC7B,UAAI,gBAAgB,KAAK,iBAAiB,YAAY,KAAK,cAAc;AACxE,eAAO,KAAK,IAAI;AAChB,eAAO,KAAK,IAAI;AAChB,eAAO,SAAS,IAAI;AAAA,MACrB;AACA,UAAI,YAAY,KAAK,iBAAiB,gBAAgB,KAAK,cAAc;AACxE,eAAO,KAAK,IAAI;AAChB,eAAO,KAAK,IAAI;AAChB,eAAO,KAAK,IAAI;AAChB,eAAO,KAAK,IAAI;AAChB,eAAO,KAAK,IAAI;AAChB,eAAO,UAAU,IAAI;AAAA,MACtB;AAAA,IACD;AAAA,EACD;AACD;",
+  "names": []
+}
