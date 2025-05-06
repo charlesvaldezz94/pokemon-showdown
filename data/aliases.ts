@@ -94,6 +94,7 @@ export const Aliases: import('../sim/dex').AliasesTable = {
 	lcotm: "[Gen 9] Partners in Crime",
 
 	// mega evos
+	melodygardevoir: "Melody-Gardevoir",
 	fabio: "Ampharos-Mega",
 	maero: "Aerodactyl-Mega",
 	megabunny: "Lopunny-Mega",

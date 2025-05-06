@@ -19806,4 +19806,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+	//#region Kybur
+	melodygardevoir: {
+		num: 2000,
+		name: "Melody-Gardevoir",
+		types: ["Fairy", "Psychic"],
+		genderRatio: { M: 0, F: 1 },
+		baseStats: { hp: 100, atk: 45, def: 75, spa: 165, spd: 135, spe: 100 },
+		abilities: { 0: "Pixelate" },
+		heightm: 1.6,
+		weightkg: 50,
+		color: "Pink",
+		eggGroups: ["Human-Like", "Amorphous"],
+	}
+	//#endregion
 };

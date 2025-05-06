@@ -1836,6 +1836,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
+	melodygardevoir: {
+		tier: "RU",
+		doublesTier: "(DUU)",
+		natDexTier: "RU",
+	},
 	gardevoirmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
