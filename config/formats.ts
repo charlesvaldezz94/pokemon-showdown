@@ -82,7 +82,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "Kybur Singles",
 		mod: 'gen9',
-		ruleset: ['AG', '!Obtainable', 'Team Preview'],
+		ruleset: ['AG', '!Obtainable'],
 	},
 	{
 		name: "[Gen 9] Ubers",

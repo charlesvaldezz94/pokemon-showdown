@@ -89,7 +89,7 @@ const Formats = [
   {
     name: "Kybur Singles",
     mod: "gen9",
-    ruleset: ["AG", "!Obtainable", "Team Preview"]
+    ruleset: ["AG", "!Obtainable"]
   },
   {
     name: "[Gen 9] Ubers",
