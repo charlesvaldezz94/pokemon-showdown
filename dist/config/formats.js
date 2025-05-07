@@ -247,6 +247,7 @@ const Formats = [
     name: "[Gen 9] BSS Reg I",
     mod: "gen9",
     bestOfDefault: true,
+    searchShow: false,
     ruleset: ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 9", "VGC Timer", "Limit Two Restricted"],
     restricted: ["Restricted Legendary"]
   },
@@ -273,7 +274,7 @@ const Formats = [
     section: "S/V Doubles"
   },
   {
-    name: "Kybur Battles",
+    name: "Kybur Doubles Standard",
     mod: "gen9",
     gameType: "doubles",
     ruleset: ["Standard AG", "!Obtainable"]
@@ -281,6 +282,7 @@ const Formats = [
   {
     name: "[Gen 9] Random Doubles Battle",
     mod: "gen9",
+    searchShow: false,
     gameType: "doubles",
     team: "random",
     ruleset: ["PotD", "Obtainable", "Species Clause", "HP Percentage Mod", "Cancel Mod", "Illusion Level Mod", "Sleep Clause Mod"]
@@ -289,6 +291,7 @@ const Formats = [
     name: "[Gen 9] Doubles OU",
     mod: "gen9",
     gameType: "doubles",
+    searchShow: false,
     ruleset: ["Standard Doubles", "Evasion Abilities Clause"],
     banlist: ["DUber", "Shadow Tag"]
   },
@@ -296,12 +299,14 @@ const Formats = [
     name: "[Gen 9] Doubles Ubers",
     mod: "gen9",
     gameType: "doubles",
+    searchShow: false,
     ruleset: ["Standard Doubles"]
   },
   {
     name: "[Gen 9] Doubles UU",
     mod: "gen9",
     gameType: "doubles",
+    searchShow: false,
     ruleset: ["[Gen 9] Doubles OU"],
     banlist: ["DOU", "DBL"]
   },
@@ -335,6 +340,7 @@ const Formats = [
     name: "[Gen 9] VGC 2025 Reg I",
     mod: "gen9",
     gameType: "doubles",
+    searchShow: false,
     bestOfDefault: true,
     ruleset: ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 9", "VGC Timer", "Open Team Sheets", "Limit Two Restricted"],
     restricted: ["Restricted Legendary"]
@@ -343,6 +349,7 @@ const Formats = [
     name: "[Gen 9] VGC 2025 Reg I (Bo3)",
     mod: "gen9",
     gameType: "doubles",
+    searchShow: false,
     ruleset: ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 9", "VGC Timer", "Force Open Team Sheets", "Best of = 3", "Limit Two Restricted"],
     restricted: ["Restricted Legendary"]
   },
