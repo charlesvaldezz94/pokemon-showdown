@@ -3727,6 +3727,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "(DUU)",
 		natDexTier: "UUBL",
 	},
+	parkergreninja: {
+		tier: "UU",
+		doublesTier: "(DUU)",
+		natDexTier: "UUBL",
+	},
 	greninjaash: {
 		isNonstandard: "Past",
 		tier: "Illegal",
