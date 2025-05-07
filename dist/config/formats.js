@@ -28,7 +28,7 @@ const Formats = [
     section: "S/V Singles"
   },
   {
-    name: "[Gen 9] Custom Game",
+    name: "Kybur Singles",
     mod: "gen9",
     battle: { trunc: Math.trunc },
     // no restrictions, for serious (other than team preview)
