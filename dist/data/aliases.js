@@ -117,6 +117,7 @@ const Aliases = {
   lcotm: "[Gen 9] Partners in Crime",
   // mega evos
   melodygardevoir: "Melody-Gardevoir",
+  danielmachamp: "Daniel-Machamp",
   fabio: "Ampharos-Mega",
   maero: "Aerodactyl-Mega",
   megabunny: "Lopunny-Mega",

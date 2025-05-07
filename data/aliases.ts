@@ -95,6 +95,7 @@ export const Aliases: import('../sim/dex').AliasesTable = {
 
 	// mega evos
 	melodygardevoir: "Melody-Gardevoir",
+	danielmachamp: "Daniel-Machamp",
 	fabio: "Ampharos-Mega",
 	maero: "Aerodactyl-Mega",
 	megabunny: "Lopunny-Mega",
