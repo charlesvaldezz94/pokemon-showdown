@@ -19915,6 +19915,18 @@ const Pokedex = {
     weightkg: 300,
     color: "Blue",
     eggGroups: ["Human-Like"]
+  },
+  parkergreninja: {
+    num: 2002,
+    name: "Parker-Greninja",
+    types: ["Water", "Ghost"],
+    genderRatio: { M: 0, F: 1 },
+    baseStats: { hp: 100, atk: 65, def: 68, spa: 170, spd: 80, spe: 137 },
+    abilities: { 0: "Technician" },
+    heightm: 1.5,
+    weightkg: 40,
+    color: "Blue",
+    eggGroups: ["Water 1"]
   }
   //#endregion
 };

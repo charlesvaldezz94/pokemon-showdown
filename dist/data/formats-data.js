@@ -3750,6 +3750,11 @@ const FormatsData = {
     doublesTier: "(DUU)",
     natDexTier: "UUBL"
   },
+  parkergreninja: {
+    tier: "UU",
+    doublesTier: "(DUU)",
+    natDexTier: "UUBL"
+  },
   greninjaash: {
     isNonstandard: "Past",
     tier: "Illegal"
