@@ -118,6 +118,7 @@ const Aliases = {
   // mega evos
   melodygardevoir: "Melody-Gardevoir",
   danielmachamp: "Daniel-Machamp",
+  parkergreninja: "Parker-Greninja",
   fabio: "Ampharos-Mega",
   maero: "Aerodactyl-Mega",
   megabunny: "Lopunny-Mega",

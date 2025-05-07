@@ -5707,6 +5707,12 @@ const Moves = {
       chance: 10,
       status: "brn"
     },
+    basePowerCallback(pokemon, target, move) {
+      if (pokemon.species.name === "Daniel-Machamp") {
+        return move.basePower + 20;
+      }
+      return move.basePower;
+    },
     target: "normal",
     type: "Fire",
     contestType: "Tough"
@@ -13552,7 +13558,6 @@ const Moves = {
     accuracy: 100,
     basePower: 60,
     category: "Special",
-    isNonstandard: "Past",
     name: "Ominous Wind",
     pp: 5,
     priority: 0,
@@ -21463,7 +21468,7 @@ const Moves = {
   watershuriken: {
     num: 594,
     accuracy: 100,
-    basePower: 15,
+    basePower: 20,
     basePowerCallback(pokemon, target, move) {
       if (pokemon.species.name === "Greninja-Ash" && pokemon.hasAbility("battlebond") && !pokemon.transformed) {
         return move.basePower + 5;
