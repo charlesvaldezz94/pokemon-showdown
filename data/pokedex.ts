@@ -19813,7 +19813,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Fairy", "Psychic"],
 		genderRatio: { M: 0, F: 1 },
 		baseStats: { hp: 100, atk: 45, def: 75, spa: 165, spd: 135, spe: 100 },
-		abilities: { 0: "Pixelate" },
+		abilities: { 0: "Pixilate" },
 		heightm: 1.6,
 		weightkg: 50,
 		color: "Pink",
