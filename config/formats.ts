@@ -164,7 +164,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		restricted: ['Restricted Legendary'],
 	},
 	{
-		name: "Kybur Singles",
+		name: "[Gen 9] Kybur Singles",
 		mod: 'gen9',
 		debug: true,
 		battle: { trunc: Math.trunc },
@@ -187,7 +187,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "S/V Doubles",
 	},
 	{
-		name: "Kybur Doubles Standard",
+		name: "[Gen 9] Kybur Doubles Standard",
 		mod: 'gen9',
 		gameType: 'doubles',
 		ruleset: ['Standard AG', '!Obtainable'],
