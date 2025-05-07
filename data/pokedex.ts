@@ -19818,6 +19818,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		color: "Pink",
 		eggGroups: ["Human-Like", "Amorphous"],
-	}
+	},
+	danielmachamp: {
+		num: 2001,
+		name: "Daniel-Machamp",
+		types: ["Fighting", "Fire"],
+		genderRatio: { M: 1, F: 0 },
+		baseStats: { hp: 100, atk: 170, def: 80, spa: 65, spd: 85, spe: 120 },
+		abilities: { 0: "Sheer Force" },
+		heightm: 2.0,
+		weightkg: 300,
+		color: "Blue",
+		eggGroups: ["Human-Like"],
+	},
 	//#endregion
 };
