@@ -7653,4 +7653,26 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 8,
 		isNonstandard: "CAP",
 	},
+	eclipseboosterenergy: {
+		name: "Eclipse Booster Energy",
+		spritenum: 745,
+		fling: {
+			basePower: 30,
+		},
+		onSwitchInPriority: -2,
+		onUpdate(pokemon) {
+			if (pokemon.hp) {
+				pokemon.useItem();
+			}
+		},
+		onUse(pokemon) {
+			this.boost({ def: 1 });
+			this.boost({ atk: 1 });
+			this.boost({ spa: 1 });
+			this.boost({ spd: 1 });
+			this.boost({ accuracy: 1 });
+		},
+		num: 2000,
+		gen: 9,
+	},
 };
