@@ -32,6 +32,7 @@ const Formats = [
     desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively viable.`,
     mod: "gen9",
     team: "random",
+    searchShow: false,
     ruleset: ["PotD", "Obtainable", "Species Clause", "HP Percentage Mod", "Cancel Mod", "Sleep Clause Mod", "Illusion Level Mod"]
   },
   {
@@ -39,6 +40,7 @@ const Formats = [
     mod: "gen9",
     team: "random",
     challengeShow: false,
+    searchShow: false,
     rated: false,
     ruleset: ["Obtainable", "Species Clause", "HP Percentage Mod", "Cancel Mod", "Sleep Clause Mod", "Illusion Level Mod"]
   },
@@ -47,6 +49,7 @@ const Formats = [
     mod: "gen9",
     team: "random",
     gameType: "freeforall",
+    searchShow: false,
     tournamentShow: false,
     rated: false,
     ruleset: ["Obtainable", "Species Clause", "HP Percentage Mod", "Cancel Mod", "Sleep Clause Mod", "Illusion Level Mod"]
@@ -55,6 +58,7 @@ const Formats = [
     name: "[Gen 9] Random Battle (Blitz)",
     mod: "gen9",
     team: "random",
+    searchShow: false,
     ruleset: ["[Gen 9] Random Battle", "Blitz"]
   },
   {
@@ -78,42 +82,49 @@ const Formats = [
   {
     name: "[Gen 9] OU",
     mod: "gen9",
+    searchShow: false,
     ruleset: ["Standard", "Sleep Moves Clause", "!Sleep Clause Mod"],
     banlist: ["Uber", "AG", "Arena Trap", "Moody", "Sand Veil", "Shadow Tag", "Snow Cloak", "King's Rock", "Razor Fang", "Baton Pass", "Last Respects", "Shed Tail"]
   },
   {
     name: "[Gen 9] Ubers",
     mod: "gen9",
+    searchShow: false,
     ruleset: ["Standard"],
     banlist: ["AG", "Moody", "King's Rock", "Razor Fang", "Baton Pass", "Last Respects"]
   },
   {
     name: "[Gen 9] UU",
     mod: "gen9",
+    searchShow: false,
     ruleset: ["[Gen 9] OU"],
     banlist: ["OU", "UUBL"]
   },
   {
     name: "[Gen 9] RU",
     mod: "gen9",
+    searchShow: false,
     ruleset: ["[Gen 9] UU"],
     banlist: ["UU", "RUBL", "Light Clay"]
   },
   {
     name: "[Gen 9] NU",
     mod: "gen9",
+    searchShow: false,
     ruleset: ["[Gen 9] RU"],
     banlist: ["RU", "NUBL", "Drought", "Quick Claw"]
   },
   {
     name: "[Gen 9] PU",
     mod: "gen9",
+    searchShow: false,
     ruleset: ["[Gen 9] NU"],
     banlist: ["NU", "PUBL", "Damp Rock"]
   },
   {
     name: "[Gen 9] LC",
     mod: "gen9",
+    searchShow: false,
     ruleset: ["Little Cup", "Standard"],
     banlist: [
       "Aipom",
@@ -152,6 +163,7 @@ const Formats = [
   {
     name: "[Gen 9] Monotype",
     mod: "gen9",
+    searchShow: false,
     ruleset: ["Standard", "Evasion Abilities Clause", "Same Type Clause", "Terastal Clause"],
     banlist: [
       "Annihilape",
@@ -219,6 +231,7 @@ const Formats = [
     name: "[Gen 9] CAP",
     desc: "The Create-A-Pok&eacute;mon project is a community dedicated to exploring and understanding the competitive Pok&eacute;mon metagame by designing, creating, and playtesting new Pok&eacute;mon concepts.",
     mod: "gen9",
+    searchShow: false,
     ruleset: ["[Gen 9] OU", "+CAP"],
     banlist: ["Crucibellite", "Rage Fist"]
   },
@@ -236,6 +249,13 @@ const Formats = [
     bestOfDefault: true,
     ruleset: ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 9", "VGC Timer", "Limit Two Restricted"],
     restricted: ["Restricted Legendary"]
+  },
+  {
+    name: "Kybur Singles",
+    mod: "gen9",
+    debug: true,
+    battle: { trunc: Math.trunc },
+    ruleset: ["Team Preview"]
   },
   {
     name: "[Gen 9] Custom Game",
