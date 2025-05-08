@@ -3789,6 +3789,18 @@ const PokedexText = {
   },
   pokestarufopropu2: {
     name: "Pokestar UFO-PropU2"
+  },
+  melodygardevoir: {
+    name: "Melody-Gardevoir"
+  },
+  danielmachamp: {
+    name: "Daniel-Machamp"
+  },
+  parkergreninja: {
+    name: "Parker-Greninja"
+  },
+  lilialuxray: {
+    name: "Lilia-Luxray"
   }
 };
 //# sourceMappingURL=pokedex.js.map
