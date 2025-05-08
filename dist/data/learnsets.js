@@ -10074,9 +10074,11 @@ const Learnsets = {
       vitalthrow: ["8L24", "7L25", "7V", "6L25", "5L32", "4L25", "3L33", "3S0"],
       wakeupslap: ["7L27", "6L27", "5L40", "4L36"],
       wideguard: ["8L1", "7L1", "6L1", "6S1", "5L1"],
-      workup: ["9M", "8M", "7M", "5M"]
+      workup: ["9M", "8M", "7M", "5M"],
+      flareblitz: ["9M"]
     },
     eventData: [
+      { generation: 9, abilities: ["sheerforce"] },
       { generation: 3, level: 38, gender: "M", nature: "Quiet", ivs: { hp: 9, atk: 23, def: 25, spa: 20, spd: 15, spe: 10 }, abilities: ["guts"], moves: ["seismictoss", "foresight", "revenge", "vitalthrow"], pokeball: "pokeball" },
       { generation: 6, level: 50, shiny: true, gender: "M", nature: "Adamant", ivs: { hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31 }, abilities: ["noguard"], moves: ["dynamicpunch", "stoneedge", "wideguard", "knockoff"], pokeball: "cherishball" },
       { generation: 6, level: 39, gender: "M", nature: "Hardy", abilities: ["noguard"], moves: ["seismictoss", "dynamicpunch", "dig", "focusenergy"], pokeball: "cherishball" },
@@ -36638,7 +36640,7 @@ const Learnsets = {
       zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"]
     },
     eventData: [
-      { generation: 5, level: 50, shiny: 1, abilities: ["trace"], moves: ["hypnosis", "thunderbolt", "focusblast", "psychic"], pokeball: "cherishball" },
+      { generation: 9, abilities: ["pixilate"] },
       { generation: 6, level: 50, shiny: true, gender: "F", abilities: ["synchronize"], moves: ["dazzlinggleam", "moonblast", "storedpower", "calmmind"], pokeball: "cherishball" }
     ]
   },
@@ -68759,6 +68761,7 @@ const Learnsets = {
       workup: ["7M"]
     },
     eventData: [
+      { generation: 9, abilities: ["technician"] },
       { generation: 6, level: 36, ivs: { spe: 31 }, isHidden: true, moves: ["watershuriken", "shadowsneak", "hydropump", "substitute"], pokeball: "cherishball" },
       { generation: 6, level: 100, isHidden: true, moves: ["hydrocannon", "gunkshot", "matblock", "happyhour"], pokeball: "cherishball" }
     ]
